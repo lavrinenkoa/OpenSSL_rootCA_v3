@@ -1,0 +1,9 @@
+#!/bin/sh
+openssl ocsp -index ./root-ca/index.txt \
+             -port 7777 \
+             -rsigner ./root-ca/certs/ca.crt \
+             -rkey ./root-ca/private/ca.key \
+             -CA ./root-ca/certs/ca.crt \
+             -text
+
+exit
