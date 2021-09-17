@@ -21,21 +21,21 @@ https://wiki.openssl.org/index.php/Command_Line_Elliptic_Curve_Operations
 
 
 # Pipe line
-1. **Create Root CA:**
+**1. Create Root CA:**
 - Create directories
 - Create database and Start numbers
 - Create CA request
 - Create CA certificate
 - Create initial CRL
 
-2. **Create KMS Root CA:**
+**2. Create KMS Root CA:**
 - Create directories
 - Create database and Start numbers
 - Create CA request
 - Create CA certificate
 - Create initial CRL
 
-3. **Create server certificate**
+**3. Create server certificate**
 - Create TLS server request
 - Create TLS server certificate
 - Create PKCS#12 bundle
@@ -43,6 +43,6 @@ https://wiki.openssl.org/index.php/Command_Line_Elliptic_Curve_Operations
 - Create TLS client certificate
 - Create PKCS#12 bundle
 
-4. **Revoke certificate**
+**4. Revoke certificate**
 - Revoke certificate
 - Create CRL
